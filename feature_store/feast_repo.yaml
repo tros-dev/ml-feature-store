@@ -1,0 +1,10 @@
+﻿project: ml_feature_store
+provider: local
+
+offline_store:
+  type: file
+  path: data/offline_store
+
+online_store:
+  type: redis
+  connection_string: localhost:6379
